@@ -1,17 +1,13 @@
-# agent-config
+# agent-scripts
 
-Reusable configurations and workflows for AI coding agents.
-
-## Purpose
-
-A reusable collection of engineering standards, agent definitions, skills, and development workflows.
+Reusable scripts, skills and workflows for Karthik's local workspace.
 
 ## Architecture
 
 | Directory    | Purpose                                |
 | ------------ | -------------------------------------- |
-| `standards/` | Shared engineering standards           |
-| `workflows/` | Reusable development workflows         |
 | `agents/`    | Agent roles and responsibilities       |
+| `scripts/`   | executable, dependency-light utilities.|
 | `skills/`    | Reusable capabilities and instructions |
+| `workflows/` | Reusable development workflows         |
 | `adapters/`  | Tool-specific configurations           |
