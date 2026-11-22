@@ -10,3 +10,10 @@
 - For technical investigations and architecture discussions, tell a concise narrative: what is happening, why, what should change, and what remains uncertain. Add headings only when they materially improve navigation.
 - Avoid list-shaped answers by default. Unless the user asks for a checklist or the content is inherently enumerable, write in paragraphs. Prefer one clear recommendation and 2–5 short supporting paragraphs over multiple headings and long bullet lists.
 
+## Core
+
+- Workspace root: `~/projects`. All projects belong under this directory.
+- Commit messages: Follow Conventional Commits (`feat`, `fix`, `chore`, `refactor`, `build`, `test`, `docs`, `ci`, `style`, `perf`).
+- Destructive Git operations require explicit user authorization, including `reset --hard`, `clean`, and `restore` when discarding changes.
+- Shell commands: Use `cd` to enter a project directory rather than `git -C`. After an unexpected command failure, verify the working directory with `pwd`.
+- Never commit secrets, `.env` files, API keys, access tokens, private keys, or local scratch artifacts.
