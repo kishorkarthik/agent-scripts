@@ -1,0 +1,7 @@
+{
+  "command": "/home/karthik/.local/bin/duckduckgo-mcp-server",
+  "args": [],
+  "env": {
+    "DDG_SEARCH_BACKEND": "curl"
+  }
+}
