@@ -18,3 +18,4 @@
 - Destructive Git operations require explicit user authorization, including `reset --hard`, `clean`, and `restore` when discarding changes.
 - Shell commands: Use `cd` to enter a project directory rather than `git -C`. After an unexpected command failure, verify the working directory with `pwd`.
 - Never commit secrets, `.env` files, API keys, access tokens, private keys, or local scratch artifacts.
+- Prefer the configured DuckDuckGo MCP for web searches; do not require the user to specify the search provider.
