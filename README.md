@@ -12,6 +12,24 @@ Reusable scripts, skills and workflows for Karthik's local workspace.
 | `workflows/` | Reusable development workflows         |
 | `adapters/`  | Tool-specific configurations           |
 
+## Skills
+
+Skills are maintained in `skills/`. Each `skills/<name>/SKILL.md` contains YAML front matter defining its name and description:
+
+```yaml
+---
+name: skill-name
+description: "Short description of the skill and when to use it."
+---
+```
+
+Register skills globally with Claude Code:
+
+```bash
+./scripts/register-skills.sh
+```
+
+The script discovers available skills and creates symlinks in `~/.claude/skills/`. Run it again whenever a skill is added.
 
 ## DuckDuckGo MCP
 
